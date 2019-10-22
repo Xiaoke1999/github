@@ -11,6 +11,8 @@ int main()
 
 	int a[5]={323,-77,34,12,56};
 	handle=dlopen("/home/xiaoke/test4/dynamiclib/libdynamiclib.so",RTLD_LAZY);
+
+
 	if(!handle)
 	{
 		perror("load error\n");
